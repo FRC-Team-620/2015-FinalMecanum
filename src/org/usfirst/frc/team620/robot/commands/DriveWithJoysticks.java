@@ -49,7 +49,7 @@ public class  DriveWithJoysticks extends Command {
     	if(Math.abs(t)<0.2)
     		t=0;
     	
-    	Robot.driveTrain.mecanumDrive(x*.3, t*.3, y*.3, 0);
+    	Robot.driveTrain.mecanumDrive(t, y, x, 0);
 
     }
 
